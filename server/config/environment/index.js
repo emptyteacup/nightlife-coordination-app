@@ -49,6 +49,13 @@ var all = {
     clientSecret: process.env.TWITTER_SECRET || 'secret',
     callbackURL:  (process.env.DOMAIN || '') + '/auth/twitter/callback'
   },
+  
+  yelp: {
+    ConsumerKey:    "fQuJ_WIk_7XKSJSm51F_mg",
+    ConsumerSecret: "2ey77Ph-uWoebyAHy-hKg0d16KM",
+    Token:          "KKC17kl0OTuHPhGvVsdN6xwiT3F3TUUy",
+    TokenSecret:    "jVzsJ3OeJC1we3pQXB14eyslKTc"
+  },
 
 };
 
